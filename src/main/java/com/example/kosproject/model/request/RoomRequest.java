@@ -19,6 +19,9 @@ public class RoomRequest {
     @NotBlank(message = "Room type is required")
     private String roomType;
 
+    @NotBlank(message = "Room available status is required")
+    private boolean roomAvailable;
+
     @NotBlank(message = "Facility id is required")
     private List<Facility> facility;
 }

@@ -23,6 +23,9 @@ public class Room {
     @Column(name = "room_type", nullable = false)
     private String roomType;
 
+    @Column(name = "room_available", nullable = false)
+    private boolean roomAvailable;
+
 //    @Column(name = "room_facility")
 //    private String roomFacility;
 
